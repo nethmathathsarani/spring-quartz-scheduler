@@ -10,10 +10,10 @@ import org.springframework.web.client.RestTemplate;
 
 @EnableTransactionManagement
 @SpringBootApplication
-public class SpringSecurityOauth2Example1Application {
+public class SpringQuartzExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecurityOauth2Example1Application.class, args);
+		SpringApplication.run(SpringQuartzExampleApplication.class, args);
 	}
 
 	@Bean
